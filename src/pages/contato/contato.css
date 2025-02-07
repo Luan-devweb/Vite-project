@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.contato-conteiner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.contato-conteiner h1{
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    color: #fff;
+    margin-top: 3em;
+    border: solid 1px darkslateblue;
+    width: 30%;
+    font-size: 22px;
+    border-radius: 12px;
+}
+.header-contato{
+    border-bottom: solid 2px lawngreen;
+}
+.Contato{
+    width: 35%;
+    height: auto;
+    background-color: #363636;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+#enviar{
+    width: 118px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    background-color: #838383;
+    border: none;
+    height: 46px;
+    transition: .5s;
+    cursor: pointer;
+}
+#enviar:hover{
+    background-color: #040404;
+    color: #ffda07;
+}
+.bottonContato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+#exemploForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 34px;
+}
+#exemploForm li{
+    border: none;
+    font-size: 14px;
+    list-style: none;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    color: aliceblue;
+    padding: 3px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 8px;
+}
+.form label{
+    margin-top: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    color: aliceblue;
+}
+
+.form input, textarea{
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px rgb(80 80 80);
+    padding: 9px;
+    margin-top: 8px;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    color: rgb(217, 225, 233);
+}
+.mgsEnviada{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    border: none;
+    background-color: transparent;
+
+}
+.mgsEnviada div{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(217, 225, 233);
+    background-color: #0a410f;
+    border-radius: 8px;
+    overflow: hidden;
+    
+
+}
+
+@media(max-width: 768px){
+    .contato-conteiner h1 {
+        width: 41%;
+        font-size: 17px;
+       
+    }
+    .Contato {
+        width: 55%;
+    }
+    .form {
+       
+      font-size: 15px;
+    }
+    .form h3{
+        font-size: 21px;
+    }
+    #exemploForm li {
+        
+        font-size: 13px;
+    }
+    
+}
+
+@media(max-width: 480px){
+    .contato-conteiner h1 {
+        width: 49%;
+        font-size: 14px;
+    }
+    .Contato {
+        width: 72%;
+    }
+    .form {
+        font-size: 13px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    #exemploForm li {
+        font-size: 13px;
+    }
+}

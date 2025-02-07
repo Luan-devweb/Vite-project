@@ -1,0 +1,126 @@
+#banner{
+    background-image: url('https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+#trailer-conteniner{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+  
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.trailer {
+    width: 50%;
+}
+
+.description {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Kdam Thmor Pro', sans-serif  ;
+    
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: nome;
+    margin-top: 25px;
+  }
+  .button:hover{
+    background-color: #fff;
+    color: #000;
+    
+  }
+
+@media(max-width: 768px){
+  #banner{
+    background-position: 73% 54%;
+    background-size: cover;
+    width: 100%;
+    height: 431px;
+  }
+  #sinopse {
+    width: 304px;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+  }
+  .content {
+    width: auto;
+    display: flex;
+    align-items: center;
+    
+  }
+   
+  }
+@media(max-width: 480px){
+#banner {
+    background-position: 70% 54%;
+    height: 277px;
+}
+.button {
+    width: 135px;
+    height: 52px; 
+    font-size: 11px;
+  
+}
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#sinopse {
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  align-items: center;
+  text-align: center;
+}
+.trailer {
+  width: 60%;
+}
+#trailer-conteniner {
+  
+  height: 30em;
+}
+.button {
+  width: 157px;
+  height: 53px;
+  font-size: 14px;
+}
+
+}

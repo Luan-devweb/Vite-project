@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.borycoment{
+    width: 100%;
+   
+    background-color: gray;
+   
+}
+.conteiner_comentario{
+    width: 80%;
+    height: 80vh;
+    background-color: aliceblue;
+}
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    margin-top: 16px;
+  }
+.foto1{
+      
+    width: 180px;
+    height: 160px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2190/2190510.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.foto2{
+      
+    height: 270px;
+    background-image: url(https://images.hdqwalls.com/download/the-batman-2020-movie-poster-5k-gg-2560x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 29% 31%;
+    width: 40%;
+}
+  
+.foto3{
+      
+    width: 180px;
+    height: 160px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2190/2190510.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+
+  }
+.tagP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #004d00;
+     
+      
+}
+  
+#Comentario{
+    color: black;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+#Comentario li{
+    width: 60%;
+    overflow: hidden;
+    padding: 14px;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.carlos::before{
+    content: "";
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.3hckg2BT4mldMAuuo6TUrQHaHa&pid=Api&P=0&h=180');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-top: 25px;
+  
+}
+  
+    
+    
+.ana::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://alexandracriollo.com/wp-content/uploads/2020/12/10-cosas-que-revela-tu-foto-de-perfil-2-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+}
+.mariana::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://www.okchicas.com/wp-content/uploads/2018/01/Poses-para-una-buena-foto-de-perfil-4-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 15px;
+}
+.ricardo::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('http://www.fabricadeexperiencias.com.mx/uploads/editorI20190114111616.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+}
+.Isabel::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://caras.com.br/media/_versions/2024/12/isabel-veloso_0f32deen_widelg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+}
+.joao::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://i.pinimg.com/736x/20/08/bb/2008bb7d4bf7eb9575021c8ae7bf51a8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 40% 2%;
+    margin-top: 25px;
+}
+.patricia::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://i.pinimg.com/736x/94/55/72/94557248162d6bb98fcbe1af70f00a12.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50% 2%;
+    margin-top: 25px;
+}
+.pedro::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('http://static.boredpanda.es/blog/wp-content/uploads/2015/01/fotos-divertidas-perfil-facebook-13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+}
+.beatriz::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://pymstatic.com/14372/conversions/foto-perfil-matches-small-16_9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 78% 0px;
+    margin-top: 25px;
+}
+.lucas::before{
+    content: "";
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-image: url('https://www.mendozapost.com/files/image/14/14079/54f0601a47721.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: 50%;
+    margin-top: 25px;
+}
+#coment{
+     
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    bottom: 21px;
+    margin: 20px;
+    padding: 30px;
+     
+}
+#adcoment{
+    border: none;
+    text-decoration: #000;
+    width: 253px;
+    font-size: 17px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 17px;
+    box-shadow: 9px 9px 15px rgb(0 0 0 / 81%);
+}
+.comentenviar{
+    background-color: #d21617;
+    color: #fff;
+    width: 70px;
+    border-radius: 18%;
+    transition: .8s;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    box-shadow: 9px 9px 15px rgb(0 0 0 / 81%);
+      
+}
+.comentenviar:hover{
+    background-color: #efff40;
+    color: #000;
+  
+}
+@media(max-width: 768px){
+    .foto1 {
+        width: 124px;
+        height: 112px;
+    }
+    .foto3 {
+        width: 124px;
+        height: 112px;
+    }
+    .foto2 {
+        height: 206px;
+       
+        background-position: 29% 1%;
+        width: 51%;
+    }
+}
+@media(max-width: 480px){
+    #Comentario li {
+        width: 90%;
+        font-size: 14px;
+    }
+    #adcoment {
+        
+        font-size: 14px;
+    }
+}

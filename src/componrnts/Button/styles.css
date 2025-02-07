@@ -1,0 +1,29 @@
+.button{
+    width: 150px;
+    height: 50px;
+    border: solid 2px #fff;
+    background-color: green;
+}
+.buttonFalse{
+    width: 150px;
+    height: 50px;
+    border: solid 2px #fff;
+    background-color: red;
+}
+span{
+    display: block;
+}
+
+.conteinerButton{
+   background-color: burlywood;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   width: 500px;
+   justify-content: center;
+   flex-direction: column;
+   color: rgb(13, 94, 59);
+   border-bottom: solid 5px purple;
+   
+
+}
